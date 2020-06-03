@@ -3,18 +3,6 @@ Error: Undefined variable: "$font-primary".
         on line 21 of base/_base.scss
         from line 4 of main.scss
 
-16: .content {
-17:     padding: $grid-unit*2 0;
-18: }
-19: 
-20: .main__img {
-21:     width: 100%;
-22:     height: 250px;
-23:     display: flex;
-24:     align-items: center;
-25:     justify-content: center;
-26:     overflow: hidden;
-
 Backtrace:
 base/_base.scss:21
 main.scss:4
@@ -77,4 +65,4 @@ C:/Ruby26-x64/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$font-primary\".\A         on line 21 of base/_base.scss\A         from line 4 of main.scss\A \A 16: .content {\A 17:     padding: $grid-unit*2 0;\A 18: }\A 19: \A 20: .main__img {\A 21:     width: 100%;\A 22:     height: 250px;\A 23:     display: flex;\A 24:     align-items: center;\A 25:     justify-content: center;\A 26:     overflow: hidden;"; }
+  content: "Error: Undefined variable: \"$font-primary\".\A         on line 21 of base/_base.scss\A         from line 4 of main.scss"; }

@@ -1,4 +1,4 @@
-let language = 'ru';
+let language = 'en';
 
 let abbrevReal = [
 	{name: 'ch'},

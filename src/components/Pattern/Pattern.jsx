@@ -9,6 +9,8 @@ const Pattern = (props) => {
 									 desc={pattern.desc}
 									 comment={pattern.comment}
 									 id={pattern.id}/>);
+	let patternCommDesc = props.patternComments
+		.map( pattern => <p>{pattern.desc}</p>);
 
 	return (
 		<div className={s.pattern}>
@@ -22,6 +24,9 @@ const Pattern = (props) => {
 				</thead>
 				{patternList}
 			</table>
+			<div className={s.comments}>
+				{patternCommDesc}
+			</div>
 
 		</div>
 	)

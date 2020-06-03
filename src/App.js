@@ -4,7 +4,6 @@ import "./styles/main.scss";
 import Header from "./components/Header/Header";
 import Intro from "./components/Intro/Intro";
 import Pattern from "./components/Pattern/Pattern";
-import {patternTitle} from "./scripts/pattern";
 
 const App = (props) => {
 
@@ -29,10 +28,14 @@ const App = (props) => {
 							  descTitle={props.descTitle}
 							  commentsTitle={props.commentsTitle}
 							  patternData={props.patternData}
+							  patternComments={props.patternComments}
 					/>
 
 
 				</main>
+				<footer>
+					<strong>Original pattern:</strong> https://spinayarncrochet.com/kawaii-heart-keychain/
+				</footer>
 			</div>
 		</BrowserRouter>
 	);

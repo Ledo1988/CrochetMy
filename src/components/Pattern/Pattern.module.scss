@@ -1,6 +1,7 @@
 .table {
   width: 100%;
   border-spacing: 0;
+  margin-bottom: $grid-unit*5;
 
  th {
     padding: $grid-unit*2;
@@ -50,5 +51,11 @@
       border-right: none;
     }
 
+  }
+}
+
+.comments {
+  p{
+    margin-bottom: $grid-unit*2;
   }
 }

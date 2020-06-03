@@ -10,7 +10,9 @@ function getPattern(language) {
 		descTitle = 'Description';
 		commentsTitle = 'Comments';
 
-		patternComments = 'Tie off. Turn your heart panel so that the bump you just completed is on the left. Join your yarn and repeat rows 18 to 22 for the second bump. Repeat all of the above for the second panel. Move on to assembly!'
+		patternComments = [
+			{id: 1, desc: 'Tie off. Turn your heart panel so that the bump you just completed is on the left. Join your yarn and repeat rows 18 to 22 for the second bump. Repeat all of the above for the second panel. Move on to assembly!'}
+		]
 
 		patternData = [
 			{id: 1, stitches: 2, desc: 'ch 3', comment: ''},
@@ -44,7 +46,10 @@ function getPattern(language) {
 		stitchesTitle = 'Кол-во петель';
 		descTitle = 'Описание';
 		commentsTitle = 'Комментарии';
-		patternComments = 'Связать. Поверните деталь так, чтобы часть, которую вы только что завершили, была слева. Привяжите пряжу и повторите ряды 18 - 22 для второй части сердца. Повторите все вышеперечисленное для второй детали. Переходите к сборке!'
+
+		patternComments = [
+			{id: 1, desc: 'Связать. Поверните деталь так, чтобы часть, которую вы только что завершили, была слева. Привяжите пряжу и повторите ряды 18 - 22 для второй части сердца. Повторите все вышеперечисленное для второй детали. Переходите к сборке!'}
+		]
 
 		patternData = [
 			{id: 1, stitches: 2, desc: 'вп 3', comment: ''},
@@ -80,6 +85,7 @@ function getPattern(language) {
 		descTitle: descTitle,
 		commentsTitle: commentsTitle,
 		patternData: patternData,
+		patternComments: patternComments,
 	}
 }
 
@@ -91,5 +97,6 @@ let stitchesTitle = pattern.stitchesTitle;
 let descTitle = pattern.descTitle;
 let commentsTitle = pattern.commentsTitle;
 let patternData = pattern.patternData;
+let patternComments = pattern.patternComments;
 
-export {patternTitle, roundTitle, stitchesTitle, descTitle,	commentsTitle, patternData};
+export {patternTitle, roundTitle, stitchesTitle, descTitle,	commentsTitle, patternData, patternComments};

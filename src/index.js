@@ -4,7 +4,7 @@ import App from "./App";
 
 import {title, abbrev, materialsTitle, materials, toolsTitle, toolsData} from './scripts/variablesTitle';
 import {abbrevData} from './scripts/variablesValues';
-import {commentsTitle, descTitle, patternTitle, roundTitle, stitchesTitle, patternData} from "./scripts/pattern";
+import {commentsTitle, descTitle, patternTitle, roundTitle, stitchesTitle, patternData, patternComments} from "./scripts/pattern";
 
 
 
@@ -22,4 +22,5 @@ ReactDOM.render( <App
 	descTitle={descTitle}
 	commentsTitle={commentsTitle}
 	patternData={patternData}
+	patternComments={patternComments}
 />, document.getElementById('root') );
