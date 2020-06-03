@@ -3,6 +3,8 @@ import {BrowserRouter, Route} from "react-router-dom";
 import "./styles/main.scss";
 import Header from "./components/Header/Header";
 import Intro from "./components/Intro/Intro";
+import Pattern from "./components/Pattern/Pattern";
+
 import MyPosts from "./components/MyPosts/MyPosts";
 import Menu from "./components/Menu/Menu";
 import Personal from "./components/Personal/Personal";
@@ -27,6 +29,11 @@ const App = (props) => {
 						   toolsTitle={props.toolsTitle}
 						   toolsData={props.toolsData}
 					/>
+					<Pattern
+
+					/>
+
+
 					<div className="main__view view ">
 						<Menu/>
 						<Personal/>
