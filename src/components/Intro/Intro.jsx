@@ -1,22 +1,31 @@
 import React from "react";
 import s from "./Intro.module.scss";
-import profile from "../../img/img_profile-bg.jpg";
-import personal from "../../img/img_profile.jpg";
+import IntroTitle from "./IntroTitle/IntroTitle";
+import image from '../../img/1-main.jpg';
+import IntroAbbrev from "./IntroAbbrev/IntroAbbrev";
 
-const Intro = () => {
+const Intro = (props) => {
+
+	let introAbbrev = props.abbrevData
+		.map( abbrev => <IntroAbbrev short={abbrev.short} long={abbrev.long} id={abbrev.id}/>);
+
 	return (
-
-		<section className={s.header}>
-			<div className={s.img}>
-				<img src={profile} alt="Profile" height="250"/>
-			</div>
-			<div className={s.linkWrapper}>
-				<a href="#" className={s.link}>
-					<div className={s.profileImg}>
-						<img src={personal} alt="Personal" width="130" height="130"/>
+		<section className={s.introWrapper}>
+			<IntroTitle mainTitle={props.mainTitle}/>
+			<div className={s.intro}>
+				<div className={s.introContent}>
+					<div className={s.introItem}>
+						<div className={s.title}>{props.abbrevTitle}</div>
+						<ul className={s.list}>
+							{introAbbrev}
+						</ul>
 					</div>
-					<div className={s.profileName}>Elena</div>
-				</a>
+
+
+				</div>
+				<div className={s.introImg}>
+					<img src={image} alt="Image"/>
+				</div>
 			</div>
 		</section>
 

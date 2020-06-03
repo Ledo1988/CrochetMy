@@ -19,7 +19,10 @@ const App = (props) => {
 			<div className="app">
 				<Header/>
 				<main className="app__main main ">
-					<Intro/>
+					<Intro mainTitle={props.mainTitle}
+						   abbrevTitle={props.abbrevTitle}
+						   abbrevData={props.abbrevData}
+					/>
 					<div className="main__view view ">
 						<Menu/>
 						<Personal/>

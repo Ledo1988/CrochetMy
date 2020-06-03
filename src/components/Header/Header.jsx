@@ -1,14 +1,14 @@
 import React from "react";
 import s from "./Header.module.scss";
 import Logo from "./Logo/Logo";
-import Navbar from "./Navbar/Navbar";
+import Socio from "./Socio/Socio";
 
 const Header = () => {
 	return (
 		<div className="header--wrapper">
 			<header className={s.header}>
 				<Logo/>
-				<Navbar/>
+				<Socio/>
 			</header>
 		</div>
 	)

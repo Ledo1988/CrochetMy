@@ -1,0 +1,26 @@
+.header {
+  @include container;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: $grid-unit*3;
+}
+
+.title {
+  font-family: $font-primary;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 24px;
+  padding: 16px 40px 40px 40px;
+  margin: 0;
+  line-height: 125%;
+}
+
+.img {
+  max-width: 220px;
+  flex-shrink: 0;
+
+  &:first-of-type {
+    transform: scale(-1, 1);
+  }
+}
