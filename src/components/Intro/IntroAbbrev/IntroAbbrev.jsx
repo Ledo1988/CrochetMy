@@ -5,7 +5,7 @@ const IntroAbbrev = (props) => {
 
 	return (
 		<li className={s.listItem}>
-			{props.short} = {props.long};
+			{props.short} = {props.long}
 		</li>
 )
 }

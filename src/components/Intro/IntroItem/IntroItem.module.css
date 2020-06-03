@@ -1,21 +1,17 @@
 /*
 Error: Undefined variable: "$grid-unit".
-        on line 6 of Intro.module.scss
+        on line 2 of IntroItem.module.scss
 
-1: .intro {
-2:   display: grid;
-3:   grid-template-rows: 1fr;
-4:   grid-template-columns: 7fr 5fr;
-5:   grid-template-areas: 'content image' 'content image';
-6:   grid-gap: $grid-unit*5;
-7:   margin-bottom: $grid-unit*5;
-8: 
-9:   &Wrapper {
-10:     @include container-fluid;
-11:   }
+1: .item {
+2:   margin-bottom: $grid-unit*3;
+3: }
+4: 
+5: .title {
+6:   font-family: $font-primary;
+7:   font-weight: 400;
 
 Backtrace:
-Intro.module.scss:6
+IntroItem.module.scss:2
 C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/script/tree/operation.rb:67:in `_perform'
@@ -64,4 +60,4 @@ C:/Ruby26-x64/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$grid-unit\".\A         on line 6 of Intro.module.scss\A \A 1: .intro {\A 2:   display: grid;\A 3:   grid-template-rows: 1fr;\A 4:   grid-template-columns: 7fr 5fr;\A 5:   grid-template-areas: 'content image' 'content image';\A 6:   grid-gap: $grid-unit*5;\A 7:   margin-bottom: $grid-unit*5;\A 8: \A 9:   &Wrapper {\A 10:     @include container-fluid;\A 11:   }"; }
+  content: "Error: Undefined variable: \"$grid-unit\".\A         on line 2 of IntroItem.module.scss\A \A 1: .item {\A 2:   margin-bottom: $grid-unit*3;\A 3: }\A 4: \A 5: .title {\A 6:   font-family: $font-primary;\A 7:   font-weight: 400;"; }

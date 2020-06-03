@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    @include container;
+    @include container-fluid;
     padding: $grid-unit;
     margin-bottom: $grid-unit*5;
     /*grid-area: header*/

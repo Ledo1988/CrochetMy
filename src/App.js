@@ -22,6 +22,10 @@ const App = (props) => {
 					<Intro mainTitle={props.mainTitle}
 						   abbrevTitle={props.abbrevTitle}
 						   abbrevData={props.abbrevData}
+						   materialsTitle={props.materialsTitle}
+						   materialsData={props.materialsData}
+						   toolsTitle={props.toolsTitle}
+						   toolsData={props.toolsData}
 					/>
 					<div className="main__view view ">
 						<Menu/>

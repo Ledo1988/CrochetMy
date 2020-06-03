@@ -1,20 +1,20 @@
 /*
-Error: Undefined mixin 'container'.
-        on line 5 of Header.module.scss, in `container'
+Error: Undefined mixin 'container-fluid'.
+        on line 5 of Header.module.scss, in `container-fluid'
         from line 5 of Header.module.scss
 
 1: .header {
 2:     display: flex;
 3:     align-items: center;
 4:     justify-content: space-between;
-5:     @include container;
+5:     @include container-fluid;
 6:     padding: $grid-unit;
 7:     margin-bottom: $grid-unit*5;
 8:     /*grid-area: header*\/
 9:     }
 
 Backtrace:
-Header.module.scss:5:in `container'
+Header.module.scss:5:in `container-fluid'
 Header.module.scss:5
 C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:348:in `block in visit_mixin'
 C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:98:in `block in with_mixin'
@@ -64,4 +64,4 @@ C:/Ruby26-x64/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'container'.\A         on line 5 of Header.module.scss, in `container'\A         from line 5 of Header.module.scss\A \A 1: .header {\A 2:     display: flex;\A 3:     align-items: center;\A 4:     justify-content: space-between;\A 5:     @include container;\A 6:     padding: $grid-unit;\A 7:     margin-bottom: $grid-unit*5;\A 8:     /*grid-area: header*/\A 9:     }"; }
+  content: "Error: Undefined mixin 'container-fluid'.\A         on line 5 of Header.module.scss, in `container-fluid'\A         from line 5 of Header.module.scss\A \A 1: .header {\A 2:     display: flex;\A 3:     align-items: center;\A 4:     justify-content: space-between;\A 5:     @include container-fluid;\A 6:     padding: $grid-unit;\A 7:     margin-bottom: $grid-unit*5;\A 8:     /*grid-area: header*/\A 9:     }"; }

@@ -19,7 +19,7 @@ html {
 
 body {
     font-family: $font-primary;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1;
     color: $color-primary;
     height: 100%;
@@ -30,11 +30,11 @@ body {
     overflow-x: hidden;
 
     @media (max-width: $hd) {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     @media (max-width: $tablet) {
-        font-size: 18px;
+        font-size: 16px;
     }
 }
 

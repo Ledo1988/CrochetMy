@@ -1,0 +1,43 @@
+.item {
+  margin-bottom: $grid-unit*3;
+}
+
+.title {
+  font-family: $font-primary;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 18px;
+  padding: 0 0 $grid-unit*2;
+  margin: 0;
+  line-height: 125%;
+}
+
+.list {
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 4px;
+
+    &:before {
+      content: '\e806';
+      color: #427f3e;
+      font-size: 10px;
+      font-family: "fontello";
+      font-style: normal;
+      font-weight: normal;
+      display: inline-block;
+      text-decoration: inherit;
+      width: 1em;
+      text-align: center;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 1em;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      opacity: 0.9;
+      transition: 0.2s ease-in-out;
+      margin-right: $grid-unit*2;
+    }
+  }
+}
