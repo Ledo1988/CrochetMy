@@ -1,0 +1,27 @@
+$path: '/fonts/';
+
+@font-face {
+  font-family: "Proxima-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url($path + 'ProximaNova-Regular.woff') format("woff"),
+       url($path + 'ProximaNova-Regular.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "Proxima-Regular";
+  font-style: normal;
+  font-weight: 700;
+  src: url($path + 'ProximaNova-Bold.woff') format("woff"),
+    url($path + 'ProximaNova-Bold.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "fontello";
+  src: url($path + 'fontello.woff2') format("woff2"),
+  url($path + 'fontello.woff') format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
