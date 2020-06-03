@@ -1,7 +1,7 @@
 import {abbrevReal, language} from "./variablesTitle";
 
 function getValues(language) {
-	let abbrevData, dialogsData, messagesData, postData;
+	let abbrevData;
 
 	if (language == 'en') {
 
@@ -21,29 +21,10 @@ function getValues(language) {
 				{id: 12, name: 'mr', short: 'mr', long: 'magic ring'},
 				{id: 13, name: 'rep', short: 'rep', long: 'repeat'},
 				{id: 14, name: 'sk', short: 'sk', long: 'skip'},
+				{id: 15, name: '**', short: '* *x...', long: 'repeat instructions in asterisks ... times'},
 			];
 
-		dialogsData = [
-			{id: 1, name: 'Sasha'},
-			{id: 2, name: 'Maksim'},
-			{id: 3, name: 'Elena'},
-			{id: 4, name: 'Xee'},
-		];
 
-		messagesData = [
-			{id: 1, message: 'Hi!', likesCount: 12},
-			{id: 2, message: 'How are you?', likesCount: 1},
-			{id: 3, message: 'Yo!', likesCount: 3},
-			{id: 4, message: 'Yo!Yo!', likesCount: 55},
-		];
-
-		postData = [
-			{id: 1, message: 'Hi', likesCount: 12},
-			{id: 2, message: 'How are you?', likesCount: 12},
-			{id: 3, message: 'Where are you?', likesCount: 12},
-			{id: 4, message: 'Bye', likesCount: 12},
-			{id: 5, message: 'Hehey', likesCount: 12},
-		];
 
 	} else if (language == 'ru'){
 
@@ -63,44 +44,19 @@ function getValues(language) {
 				{id: 12, name: 'mr', short: 'мк', long: 'магический круг'},
 				{id: 13, name: 'rep', short: 'повтор', long: 'повтор'},
 				{id: 14, name: 'sk', short: 'пропуск', long: 'пропуск'},
+				{id: 15, name: '**', short: '* *x...', long: 'повторять ... раз'},
 			];
 
-		dialogsData = [
-			{id: 1, name: 'Sasha'},
-			{id: 2, name: 'Maksim'},
-			{id: 3, name: 'Elena'},
-			{id: 4, name: 'Xee'},
-		];
 
-		messagesData = [
-			{id: 1, message: 'Hi!', likesCount: 12},
-			{id: 2, message: 'How are you?', likesCount: 1},
-			{id: 3, message: 'Yo!', likesCount: 3},
-			{id: 4, message: 'Yo!Yo!', likesCount: 55},
-		];
-
-		postData = [
-			{id: 1, message: 'Hi', likesCount: 12},
-			{id: 2, message: 'How are you?', likesCount: 12},
-			{id: 3, message: 'Where are you?', likesCount: 12},
-			{id: 4, message: 'Bye', likesCount: 12},
-			{id: 5, message: 'Hehey', likesCount: 12},
-		];
 	}
 
 	return {
-		dialog: dialogsData,
-		message: messagesData,
-		post: postData,
 		abbrevData: abbrevData,
 	}
 };
 
 let values = getValues(language);
 
-let dialog = values.dialog;
-let message = values.message;
-let post = values.post;
 let abbrevData = values.abbrevData;
 
 
@@ -110,4 +66,4 @@ abbrevData = abbrevData.filter( el => {
 	});
 });
 
-export {dialog, message, post, abbrevData};
+export {abbrevData};

@@ -4,14 +4,7 @@ import "./styles/main.scss";
 import Header from "./components/Header/Header";
 import Intro from "./components/Intro/Intro";
 import Pattern from "./components/Pattern/Pattern";
-
-import MyPosts from "./components/MyPosts/MyPosts";
-import Menu from "./components/Menu/Menu";
-import Personal from "./components/Personal/Personal";
-import Dialogs from "./components/Dialogs/Dialogs";
-import News from "./components/News/News";
-import Music from "./components/Music/Music";
-import Settings from "./components/Settings/Settings";
+import {patternTitle} from "./scripts/pattern";
 
 const App = (props) => {
 
@@ -28,23 +21,17 @@ const App = (props) => {
 						   materialsData={props.materialsData}
 						   toolsTitle={props.toolsTitle}
 						   toolsData={props.toolsData}
-					/>
-					<Pattern
 
 					/>
+					<Pattern  patternTitle={props.patternTitle}
+							  roundTitle={props.roundTitle}
+							  stitchesTitle={props.stitchesTitle}
+							  descTitle={props.descTitle}
+							  commentsTitle={props.commentsTitle}
+							  patternData={props.patternData}
+					/>
 
 
-					<div className="main__view view ">
-						<Menu/>
-						<Personal/>
-						<div className="view__content content">
-							<Route path="/profile" render={ () => <MyPosts postData={props.postData}/>}/>
-							<Route path="/dialogs" render={ () => <Dialogs dialogsData={props.dialogsData} messagesData={props.messagesData}/>}/>
-							<Route path="/news" component={News}/>
-							<Route path="/music" component={Music}/>
-							<Route path="/settings" component={Settings}/>
-						</div>
-					</div>
 				</main>
 			</div>
 		</BrowserRouter>

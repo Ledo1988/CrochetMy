@@ -7,8 +7,7 @@ let abbrevReal = [
 	{name: 'dec'},
 ];
 
-let hookSize = 2;
-
+let hookSize = 1.75;
 
 function getTitles(language) {
 	let mainTitle, abbrevTitle, materialsTitle, materials, toolsTitle, tools = '';
@@ -20,13 +19,13 @@ function getTitles(language) {
 		toolsTitle = 'Tools';
 
 		materials = [
-			{id: 1, name: 'Yarn (for crochet hook ' + hookSize + 'mm wide)',},
+			{id: 1, name: 'Yarn (for crochet hook ' + hookSize + ' mm wide)',},
 			{id: 2, name: 'Fiberfill (to stuff)',},
 			{id: 3, name: 'Thread (for your choice)',}
 		];
 
 		tools = [
-			{id: 1, name: hookSize + 'mm crochet hook',},
+			{id: 1, name: hookSize + ' mm crochet hook',},
 			{id: 2, name: 'Needle',},
 			{id: 3, name: 'Scissors',}
 		];
@@ -44,7 +43,7 @@ function getTitles(language) {
 		];
 
 		tools = [
-			{id: 1, name: 'Крючок ' + hookSize + 'мм',},
+			{id: 1, name: 'Крючок ' + hookSize + ' мм',},
 			{id: 2, name: 'Игла',},
 			{id: 3, name: 'Ножницы',}
 		];

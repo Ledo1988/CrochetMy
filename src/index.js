@@ -3,14 +3,12 @@ import ReactDOM from 'react-dom';
 import App from "./App";
 
 import {title, abbrev, materialsTitle, materials, toolsTitle, toolsData} from './scripts/variablesTitle';
-import {dialog, message, post, abbrevData} from './scripts/variablesValues';
+import {abbrevData} from './scripts/variablesValues';
+import {commentsTitle, descTitle, patternTitle, roundTitle, stitchesTitle, patternData} from "./scripts/pattern";
 
 
 
 ReactDOM.render( <App
-	dialogsData={dialog}
-	messagesData={message}
-	postData={post}
 	mainTitle={title}
 	abbrevTitle={abbrev}
 	abbrevData={abbrevData}
@@ -18,4 +16,10 @@ ReactDOM.render( <App
 	materialsData={materials}
 	toolsTitle={toolsTitle}
 	toolsData={toolsData}
+	patternTitle={patternTitle}
+	roundTitle={roundTitle}
+	stitchesTitle={stitchesTitle}
+	descTitle={descTitle}
+	commentsTitle={commentsTitle}
+	patternData={patternData}
 />, document.getElementById('root') );
