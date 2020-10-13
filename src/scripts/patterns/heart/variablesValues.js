@@ -22,8 +22,6 @@ function getValues(language) {
 				{id: 13, name: 'rep', short: 'rep', long: 'repeat'},
 				{id: 14, name: 'sk', short: 'sk', long: 'skip'},
 				{id: 15, name: '**', short: '* *x...', long: 'repeat instructions in asterisks ... times'},
-				{id: 16, name: 'sc2tog', short: 'sc2tog', long: 'single crochet 2 together'},
-				{id: 17, name: 'st', short: 'st', long: 'stitch'},
 			];
 
 
@@ -47,8 +45,6 @@ function getValues(language) {
 				{id: 13, name: 'rep', short: 'повтор', long: 'повтор'},
 				{id: 14, name: 'sk', short: 'пропуск', long: 'пропуск'},
 				{id: 15, name: '**', short: '* *x...', long: 'повторять ... раз'},
-				{id: 16, name: 'sc2tog', short: '2ст б/н вместе', long: 'провязать два столбика без накида вместе.'},
-				{id: 17, name: 'st', short: 'петля', long: 'петля'},
 			];
 
 

@@ -11,32 +11,50 @@ function getPattern(language) {
 		commentsTitle = 'Comments';
 
 		patternComments = [
-			{id: 1, desc: 'Tie off. Turn your heart panel so that the bump you just completed is on the left. Join your yarn and repeat rows 18 to 22 for the second bump. Repeat all of the above for the second panel. Move on to assembly!'}
+			{id: 1, desc: `Bowtie measures 1 1/2'' wide x 3'' long (4 x 7.5 cm). In the end tie will be ready. Fasten off, leaving long tail for sewing.` +
+					"Afterwards we make a Cinch Band Ch 7. Row 1: Sc in 2nd ch from hook and in each ch across—6 sc. Fasten off, leaving long tail for sewing.\n" +
+					"Neck Band Work as many ch sts as needed to fit comfortably around wearer’s neck. Row 1: Sc in 2nd ch from hook and in each ch across; do not turn.\n" +
+					"Buttonhole Loop.  Ch 5; join with slip st in last st of Row 1. Fasten off." +
+					"Fold Tie at Rows 9 and 25 so that unworked back loops form outer edges. " +
+					"Sew edges of first and last rows together. " +
+					"Pinch center of Tie and wrap Cinch Band tightly around middle of Tie over seam. Sew ends together at back of Tie (do not sew to Tie). " +
+					"Slip Neck Band under Cinch Band. Sew button to end of Neck Band opposite Buttonhole. Weave in ends."}
 		]
 
 		patternData = [
-			{id: 1, stitches: 2, desc: 'ch 3', comment: ''},
-			{id: 2, stitches: 2, desc: '2sc', comment: ''},
-			{id: 3, stitches: 4, desc: '*1inc*x2', comment: ''},
-			{id: 4, stitches: 6, desc: '1inc, 2sc, 1inc', comment: ''},
-			{id: 5, stitches: 8, desc: '1inc, 4sc, 1inc', comment: ''},
-			{id: 6, stitches: 10, desc: '1inc, 6sc, 1inc', comment: ''},
-			{id: 7, stitches: 12, desc: '1inc, 8sc, 1inc', comment: ''},
-			{id: 8, stitches: 14, desc: '1inc, 10sc, 1inc', comment: ''},
-			{id: 9, stitches: 16, desc: '1inc, 12sc, 1inc', comment: ''},
-			{id: 10, stitches: 18, desc: '1inc, 14sc, 1inc', comment: ''},
-			{id: 11, stitches: 20, desc: '1inc, 16sc, 1inc', comment: ''},
-			{id: 12, stitches: 20, desc: '20sc', comment: ''},
-			{id: 13, stitches: 22, desc: '1inc, 18sc, 1inc', comment: ''},
-			{id: 14, stitches: 22, desc: '22sc', comment: ''},
-			{id: 15, stitches: 22, desc: '22sc', comment: ''},
-			{id: 16, stitches: 24, desc: '1inc, 20sc, 1inc', comment: ''},
-			{id: 17, stitches: 24, desc: '24sc', comment: ''},
-			{id: 18, stitches: 12, desc: '12sc', comment: 'Now we will start the heart shape. Each “bump” is done separately, so you will be crocheting only half way across the panel and then we’ll go back and do the second bump afterwards.'},
-			{id: 19, stitches: 11, desc: '1dec, 10sc', comment: ''},
-			{id: 20, stitches: 9, desc: '1dec, 7sc, 1dec', comment: ''},
-			{id: 21, stitches: 7, desc: '1dec, 5sc, 1dec', comment: ''},
-			{id: 22, stitches: 4, desc: '1dec, 1sc, *1dec*x2', comment: ''},
+			{id: 1, stitches: 6, desc: 'ch 6', comment: ''},
+			{id: 2, stitches: 5, desc: 'sc in 2nd ch and sc in each ch, turn', comment: 'Wrong side'},
+			{id: 3, stitches: 5, desc: 'ch 1, sc in each st across; turn', comment: ''},
+			{id: 4, stitches: 5, desc: '', comment: 'repeat 3rd row'},
+			{id: 5, stitches: 7, desc: 'ch 1,2 sc in first st, sc in each st to last st, 2 sc in last st; turn', comment: ''},
+			{id: 6, stitches: 7, desc: '', comment: 'repeat 5th row'},
+			{id: 7, stitches: 7, desc: '', comment: 'repeat 5th row'},
+			{id: 8, stitches: 7, desc: '', comment: 'repeat 5th row'},
+			{id: 9, stitches: 7, desc: '', comment: 'repeat 5th row'},
+			{id: 10, stitches: 7, desc: 'ch 1, working in front loops only, sc in each st; turn', comment: 'Fold row'},
+			{id: 11, stitches: 7, desc: '', comment: 'repeat 10th row'},
+			{id: 12, stitches: 7, desc: '', comment: 'repeat 10th row'},
+			{id: 13, stitches: 7, desc: '', comment: 'repeat 10th row'},
+			{id: 14, stitches: 5, desc: 'ch 1, sc2tog, sc in each st to last 2 sts, sc2tog', comment: ''},
+			{id: 15, stitches: 5, desc: '', comment: 'repeat 3rd row'},
+			{id: 16, stitches: 5, desc: '', comment: 'repeat 3rd row'},
+			{id: 17, stitches: 5, desc: '', comment: 'repeat 3rd row'},
+			{id: 18, stitches: 5, desc: '', comment: 'repeat 3rd row'},
+			{id: 19, stitches: 5, desc: '', comment: 'repeat 3rd row'},
+			{id: 20, stitches: 5, desc: '', comment: 'repeat 3rd row'},
+			{id: 21, stitches: 7, desc: 'ch 1,2 sc in first st, sc in each st to last st, 2 sc in last st; turn', comment: ''},
+			{id: 22, stitches: 7, desc: '', comment: 'repeat 5th row'},
+			{id: 23, stitches: 7, desc: '', comment: 'repeat 5th row'},
+			{id: 24, stitches: 7, desc: '', comment: 'repeat 5th row'},
+			{id: 25, stitches: 7, desc: '', comment: 'repeat 5th row'},
+			{id: 26, stitches: 7, desc: 'ch 1, working in front loops only, sc in each st; turn', comment: 'Fold row'},
+			{id: 27, stitches: 7, desc: '', comment: 'repeat 10th row'},
+			{id: 28, stitches: 7, desc: '', comment: 'repeat 10th row'},
+			{id: 29, stitches: 7, desc: '', comment: 'repeat 10th row'},
+			{id: 30, stitches: 5, desc: 'ch 1, sc2tog, sc in each st to last 2 sts, sc2tog', comment: ''},
+			{id: 31, stitches: 5, desc: '', comment: 'repeat 3rd row'},
+			{id: 32, stitches: 5, desc: '', comment: 'repeat 3rd row'},
+			{id: 33, stitches: 5, desc: '', comment: 'repeat 3rd row'},
 		];
 
 
@@ -48,7 +66,15 @@ function getPattern(language) {
 		commentsTitle = 'Комментарии';
 
 		patternComments = [
-			{id: 1, desc: 'Связать. Поверните деталь так, чтобы часть, которую вы только что завершили, была слева. Привяжите пряжу и повторите ряды 18 - 22 для второй части сердца. Повторите все вышеперечисленное для второй детали. Переходите к сборке!'}
+			{id: 1, desc: 'Размер готовой бабочки 4 x 7,5 см. В итоге галстук будет готов. Закрепите, оставив длинный хвостик для пришивания.\n' +
+					'Затем делаем завязку: 7 вп, сбн во 2 петлю от крючка и в каждую последующую петлю до конца - 6 сбн. ' +
+					'Закрепляем, оставляя длинный хвостик для пришивания». +\n' +
+					"Шейный ремешок Наберите столько петель, сколько необходимо, чтобы было удобно носить бабочку на шее. " +
+					"Ряд 1: сбн во 2-ю петлю от крючка и в каждую петлю до конца." +
+					'Перемычка. 5 вп; замкните ряд. Закрепите". +\n' +
+					'Сложите галстук в рядах 9 и 25 так, чтобы необработанные петли спинки образовали внешние края. Сшейте края первого и последнего ряда вместе. ' +
+					'Зажмите центр галстука и плотно оберните завязку вокруг середины галстука по шву (не пришивайте к галстуку).' +
+					'Проденьте шейный ремешок под завязкой. Пришейте пуговицу к концу шейной ленты напротив петли. Вплетите концы. "'}
 		]
 
 		patternData = [

@@ -3,25 +3,25 @@ let language = 'en';
 let abbrevReal = [
 	{name: 'ch'},
 	{name: 'sc'},
-	{name: 'st'},
-	{name: 'sc2tog'},
+	{name: 'inc'},
+	{name: 'dec'},
 ];
 
-let hookSize = 3.25;
+let hookSize = 1.75;
 
 function getTitles(language) {
 	let mainTitle, abbrevTitle, materialsTitle, materials, toolsTitle, tools = '';
 
 	if (language == 'en') {
-		mainTitle = 'Pattern "Bowtie for Little Man"';
+		mainTitle = 'Pattern "Heart"';
 		abbrevTitle = 'Abbreviations';
 		materialsTitle = 'Materials';
 		toolsTitle = 'Tools';
 
 		materials = [
 			{id: 1, name: 'Yarn (for crochet hook ' + hookSize + ' mm wide)',},
-			// {id: 2, name: 'Fiberfill (to stuff)',},
-			{id: 2, name: 'Thread (for your choice)',}
+			{id: 2, name: 'Fiberfill (to stuff)',},
+			{id: 3, name: 'Thread (for your choice)',}
 		];
 
 		tools = [
@@ -31,15 +31,15 @@ function getTitles(language) {
 		];
 
 	} else if (language == 'ru') {
-		mainTitle = 'Схема "Бабочка детская"';
+		mainTitle = 'Схема "Сердечко"';
 		abbrevTitle = 'Условные обозначения';
 		materialsTitle = 'Материалы';
 		toolsTitle = 'Инструменты';
 
 		materials = [
 			{id: 1, name: 'Пряжа (для крючка №' + hookSize + ')'},
-			// {id: 2, name: 'Наполнитель',},
-			{id: 2, name: 'Вышивальная нить (по желанию)',}
+			{id: 2, name: 'Наполнитель',},
+			{id: 3, name: 'Вышивальная нить (по желанию)',}
 		];
 
 		tools = [

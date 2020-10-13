@@ -34,7 +34,7 @@ const App = (props) => {
 
 				</main>
 				<footer>
-					<strong>Original pattern:</strong> https://www.yarnspirations.com/red-heart-bowtie-for-little-man/RHC0201-019625M.html?cgid=patterns
+					<strong>Original pattern:</strong> https://spinayarncrochet.com/kawaii-heart-keychain/
 				</footer>
 			</div>
 		</BrowserRouter>

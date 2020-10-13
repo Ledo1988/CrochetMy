@@ -28,7 +28,7 @@ const Socio = () => {
 				{/*<li className={s.listItem}>*/}
 				{/*	<a href="#" className={`${s.listLink} ${s.listLinkEtsy}`}>*/}
 				{/*		<div className={s.listLinkImg}>*/}
-				{/*			<img src={etsy} alt="Etsy"/>*/}
+				{/*			<patterns src={etsy} alt="Etsy"/>*/}
 				{/*		</div>*/}
 				{/*		<span className={s.listLinkTitle}>raspberry__leaf</span>*/}
 				{/*	</a>*/}
