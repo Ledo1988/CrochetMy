@@ -1,6 +1,13 @@
 {
   "base": {
-    "cover": 100,
+    "cover": {
+      "nappy": {
+        "rate": 100
+      },
+      "blanket": {
+        "rate": 100
+      }
+    },
     "accessory": 100,
     "ears": 100
   },
