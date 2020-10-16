@@ -1,92 +1,115 @@
 {
   "base": {
-    "oneColor": {
-      "mint": {
-        "quantity": 1,
-        "cover": {
-          "id": 1,
+
+    "mint": {
+      "quantity": 1,
+      "cover": {
+        "itemOne": {          
           "type": "nappy",
-          "img": "url",
-          "rate": 100
+          "img": "url"
         },
-        "accessory": {
-          "type": "bib",
-          "img": "url",
-          "rate": 100
-        },
-        "ears": {
-          "img": "url",
-          "rate": 100
+        "itemTwo": {          
+          "type": "blanket",
+          "img": "url"
         }
       },
-      "beige": {
-        "quantity": 1,
-        "cover": {
-          "id": 1,
-          "type": "blanket",
-          "img": "url",
-          "rate": 100
-        },
-        "accessory": {
-          "type": "bib",
-          "img": "url",
-          "rate": 100
-        },
-        "ears": {
-          "img": "url",
-          "rate": 100
-        }
+      "accessory": {
+        "type": "bib",
+        "img": "url"
+      },
+      "ears": {
+        "img": "url"
       }
     },
-    "flowers": {
-      "roses": {
-        "quantity": 1,
-        "cover": {
-          "id": 1,
-          "type": "nappy",
-          "img": "url",
-          "rate": 100
-        },
-        "accessory": {
-          "type": "cap",
-          "img": "url",
-          "rate": 100
-        },
-        "ears": {
-          "img": "url",
-          "rate": 100
-        }
+    "beige": {
+      "quantity": 1,
+      "cover": {        
+        "type": "blanket",
+        "img": "url"
+      },
+      "accessory": {
+        "type": "bib",
+        "img": "url"
+      },
+      "ears": {
+        "img": "url"
+      }
+    },
+    "roses": {
+      "quantity": 1,
+      "cover": {        
+        "type": "nappy",
+        "img": "url"
+      },
+      "accessory": {
+        "type": "cap",
+        "img": "url"
+      },
+      "ears": {
+        "img": "url"
       }
     }
   },
   "toy": {
-    "oneColor": {
-      "mint": {
-        "boy": {
-          "quantity": 1,
-          "img": "img"
-        },
-        "girl": "img",
-        "rate": 100
+    "mint": {
+      "boy": {
+        "quantity": 1,
+        "img": "img"
       },
-      "beige": {
-        "boy": "img",
-        "girl": "img",
-        "rate": 100
+      "girl": {
+        "quantity": 1,
+        "img": "img"
       }
     },
-    "flowers": {
-      "roses": {
-        "boy": "img",
-        "girl": "img",
-        "rate": 100
+    "beige": {
+      "boy": {
+        "quantity": 1,
+        "img": "img"
+      },
+      "girl": {
+        "quantity": 1,
+        "img": "img"
+      }
+    },
+    "roses": {
+      "boy": {
+        "quantity": 1,
+        "img": "img"
+      },
+      "girl": {
+        "quantity": 1,
+        "img": "img"
       }
     }
   },
   "extra": {
     "iceCream": {
-      "green": 'img',
-      "rate":
+      "green": {        
+        "quantity": 1,
+        "img": "url"
+      },
+      "red": {
+        "quantity": 1,
+        "img": "url"
+      },
+      "yellow": {
+        "quantity": 1,
+        "img": "url"
+      }
+    },
+    "accessory": {
+      "leaves": {
+        "quantity": 1,
+        "img": "url"
+      },
+      "hearts": {
+        "quantity": 1,
+        "img": "url"
+      },
+      "stars": {
+        "quantity": 1,
+        "img": "url"
+      }
     }
   }
 }

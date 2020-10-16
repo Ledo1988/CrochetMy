@@ -1,0 +1,17 @@
+{
+  "base": {
+    "cover": 100,
+    "accessory": 100,
+    "ears": 100
+  },
+  "toy": 100,
+  "extra": {
+    "iceCream": 100,
+    "accessory": 100
+  },
+  "bonus": {
+    "one": 100,
+    "two": 100,
+    "three": 100
+  }
+}
