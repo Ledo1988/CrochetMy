@@ -4,7 +4,7 @@
     "mint": {
       "quantity": 1,
       "cover": {
-        "itemOne": {          
+        "itemOne": {
           "type": "nappy",
           "img": "url"
         },
@@ -80,6 +80,28 @@
         "quantity": 1,
         "img": "img"
       }
+    }
+  },
+  "postcard": {
+    "first" : {
+      "quantity": 1,
+      "img": "url"
+    },
+    "second" : {
+      "quantity": 1,
+      "img": "url"
+    },
+    "third" : {
+      "quantity": 1,
+      "img": "url"
+    },
+    "fourth" : {
+      "quantity": 1,
+      "img": "url"
+    },
+    "fifth" : {
+      "quantity": 1,
+      "img": "url"
     }
   },
   "extra": {
